@@ -225,6 +225,9 @@ nav button {
   gap: 5rem;
   margin-bottom: 5rem;
 }
+.library{
+  grid-template-columns: repeat(4, 1fr);
+}
 .category__buttons {
   padding: 4rem 0;
   border-top: 2px solid black;
@@ -635,6 +638,9 @@ select {
   .posts__container {
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
+  }
+  .library{
+
   }
   .search__bar-container {
     width: 60%;
